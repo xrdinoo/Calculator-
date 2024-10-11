@@ -7,14 +7,14 @@ function appendToDisplay(input){
 }
 
 function clearDisplay(){
-   display.value = "Lods T-T";
+   display.value = "I miss you";
 }
 
 function calculate(){
     try{
         
         eval(display.value);
-        display.value = "I miss you";
+        display.value = "Lods T-T";
     }
     catch(error){
       display.value = "Miss u na po :<";
